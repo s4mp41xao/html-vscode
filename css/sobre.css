@@ -1,6 +1,9 @@
 body {
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
 }
 
 h1 {
@@ -8,9 +11,7 @@ h1 {
 }
 
 h2 {
-    border-left-style: solid;
-    border-color: #333333;
-
+    margin-top: 30px;
 }
 
 figure {
@@ -21,4 +22,26 @@ figure {
 
 figcaption {
     font-style: italic;
+}
+
+h3 {
+    margin-top: 30px; 
+}
+
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px;
+    padding: 30px;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
 }
